@@ -1,0 +1,17 @@
+D:\ClenArchitecture\CAWebApi\CA.Application\bin\Debug\net8.0\CA.Application.deps.json
+D:\ClenArchitecture\CAWebApi\CA.Application\bin\Debug\net8.0\CA.Application.dll
+D:\ClenArchitecture\CAWebApi\CA.Application\bin\Debug\net8.0\CA.Application.pdb
+D:\ClenArchitecture\CAWebApi\CA.Application\bin\Debug\net8.0\CA.Domain.dll
+D:\ClenArchitecture\CAWebApi\CA.Application\bin\Debug\net8.0\CA.Infrastructure.dll
+D:\ClenArchitecture\CAWebApi\CA.Application\bin\Debug\net8.0\CA.Domain.pdb
+D:\ClenArchitecture\CAWebApi\CA.Application\bin\Debug\net8.0\CA.Infrastructure.pdb
+D:\ClenArchitecture\CAWebApi\CA.Application\obj\Debug\net8.0\CA.Application.csproj.AssemblyReference.cache
+D:\ClenArchitecture\CAWebApi\CA.Application\obj\Debug\net8.0\CA.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ClenArchitecture\CAWebApi\CA.Application\obj\Debug\net8.0\CA.Application.AssemblyInfoInputs.cache
+D:\ClenArchitecture\CAWebApi\CA.Application\obj\Debug\net8.0\CA.Application.AssemblyInfo.cs
+D:\ClenArchitecture\CAWebApi\CA.Application\obj\Debug\net8.0\CA.Application.csproj.CoreCompileInputs.cache
+D:\ClenArchitecture\CAWebApi\CA.Application\obj\Debug\net8.0\CA.Appli.37BE4952.Up2Date
+D:\ClenArchitecture\CAWebApi\CA.Application\obj\Debug\net8.0\CA.Application.dll
+D:\ClenArchitecture\CAWebApi\CA.Application\obj\Debug\net8.0\refint\CA.Application.dll
+D:\ClenArchitecture\CAWebApi\CA.Application\obj\Debug\net8.0\CA.Application.pdb
+D:\ClenArchitecture\CAWebApi\CA.Application\obj\Debug\net8.0\ref\CA.Application.dll

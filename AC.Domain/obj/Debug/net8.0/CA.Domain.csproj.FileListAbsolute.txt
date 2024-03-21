@@ -1,0 +1,11 @@
+D:\ClenArchitecture\CAWebApi\AC.Domain\bin\Debug\net8.0\CA.Domain.deps.json
+D:\ClenArchitecture\CAWebApi\AC.Domain\bin\Debug\net8.0\CA.Domain.dll
+D:\ClenArchitecture\CAWebApi\AC.Domain\bin\Debug\net8.0\CA.Domain.pdb
+D:\ClenArchitecture\CAWebApi\AC.Domain\obj\Debug\net8.0\CA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ClenArchitecture\CAWebApi\AC.Domain\obj\Debug\net8.0\CA.Domain.AssemblyInfoInputs.cache
+D:\ClenArchitecture\CAWebApi\AC.Domain\obj\Debug\net8.0\CA.Domain.AssemblyInfo.cs
+D:\ClenArchitecture\CAWebApi\AC.Domain\obj\Debug\net8.0\CA.Domain.csproj.CoreCompileInputs.cache
+D:\ClenArchitecture\CAWebApi\AC.Domain\obj\Debug\net8.0\CA.Domain.dll
+D:\ClenArchitecture\CAWebApi\AC.Domain\obj\Debug\net8.0\refint\CA.Domain.dll
+D:\ClenArchitecture\CAWebApi\AC.Domain\obj\Debug\net8.0\CA.Domain.pdb
+D:\ClenArchitecture\CAWebApi\AC.Domain\obj\Debug\net8.0\ref\CA.Domain.dll

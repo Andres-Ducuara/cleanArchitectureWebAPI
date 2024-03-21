@@ -1,0 +1,17 @@
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\bin\Debug\net8.0\CA.Infrastructure.deps.json
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\bin\Debug\net8.0\CA.Infrastructure.runtimeconfig.json
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\bin\Debug\net8.0\CA.Infrastructure.dll
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\bin\Debug\net8.0\CA.Infrastructure.pdb
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\bin\Debug\net8.0\CA.Domain.dll
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\bin\Debug\net8.0\CA.Domain.pdb
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\obj\Debug\net8.0\CA.Infrastructure.csproj.AssemblyReference.cache
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\obj\Debug\net8.0\CA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\obj\Debug\net8.0\CA.Infrastructure.AssemblyInfoInputs.cache
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\obj\Debug\net8.0\CA.Infrastructure.AssemblyInfo.cs
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\obj\Debug\net8.0\CA.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\obj\Debug\net8.0\CA.Infra.8D61AF62.Up2Date
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\obj\Debug\net8.0\CA.Infrastructure.dll
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\obj\Debug\net8.0\refint\CA.Infrastructure.dll
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\obj\Debug\net8.0\CA.Infrastructure.pdb
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\obj\Debug\net8.0\CA.Infrastructure.genruntimeconfig.cache
+D:\ClenArchitecture\CAWebApi\CA.Infrastructure\obj\Debug\net8.0\ref\CA.Infrastructure.dll
