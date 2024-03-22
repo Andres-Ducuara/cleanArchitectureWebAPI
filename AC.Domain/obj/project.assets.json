@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Andres D\\.nuget\\packages\\": {}
+    "C:\\Users\\Janus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\cleanArchitectureWebAPI\\AC.Domain\\CA.Domain.csproj",
+      "projectUniqueName": "D:\\ClenArchitecture\\cleanArchitectureWebAPI\\AC.Domain\\CA.Domain.csproj",
       "projectName": "CA.Domain",
-      "projectPath": "E:\\cleanArchitectureWebAPI\\AC.Domain\\CA.Domain.csproj",
-      "packagesPath": "C:\\Users\\Andres D\\.nuget\\packages\\",
-      "outputPath": "E:\\cleanArchitectureWebAPI\\AC.Domain\\obj\\",
+      "projectPath": "D:\\ClenArchitecture\\cleanArchitectureWebAPI\\AC.Domain\\CA.Domain.csproj",
+      "packagesPath": "C:\\Users\\Janus\\.nuget\\packages\\",
+      "outputPath": "D:\\ClenArchitecture\\cleanArchitectureWebAPI\\AC.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Andres D\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Janus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

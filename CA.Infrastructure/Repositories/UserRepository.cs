@@ -42,7 +42,8 @@ namespace CA.Infrastructure.Repositories
 
             if (!string.IsNullOrEmpty(filter))
             {
-                Users = Users.Where(u => u.Name.Contains(filter) || u.DNI.Contains(filter));
+                Users = Users.Where(u => u.Name.Contains(filter) 
+                || u.DNI.Contains(filter));
             }
 
             return await Users.ToListAsync(); 

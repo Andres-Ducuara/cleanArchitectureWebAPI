@@ -57,7 +57,8 @@ namespace CAWebApi.Controllers
         {
             var createdBlog = await _userService.CreateAsync(user);
 
-            return CreatedAtAction("GetByIdAsync", new { id = createdBlog.Id }, createdBlog);
+            return CreatedAtAction("GetByIdAsync", new { id = createdBlog.Id },
+                createdBlog);
         }
 
  
