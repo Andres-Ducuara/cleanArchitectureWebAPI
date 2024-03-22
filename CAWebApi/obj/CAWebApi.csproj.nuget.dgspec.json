@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ClenArchitecture\\CAWebApi\\CAWebApi\\CAWebApi.csproj": {}
+    "E:\\cleanArchitectureWebAPI\\CAWebApi\\CAWebApi.csproj": {}
   },
   "projects": {
-    "D:\\ClenArchitecture\\CAWebApi\\AC.Domain\\CA.Domain.csproj": {
+    "E:\\cleanArchitectureWebAPI\\AC.Domain\\CA.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ClenArchitecture\\CAWebApi\\AC.Domain\\CA.Domain.csproj",
+        "projectUniqueName": "E:\\cleanArchitectureWebAPI\\AC.Domain\\CA.Domain.csproj",
         "projectName": "CA.Domain",
-        "projectPath": "D:\\ClenArchitecture\\CAWebApi\\AC.Domain\\CA.Domain.csproj",
-        "packagesPath": "C:\\Users\\Janus\\.nuget\\packages\\",
-        "outputPath": "D:\\ClenArchitecture\\CAWebApi\\AC.Domain\\obj\\",
+        "projectPath": "E:\\cleanArchitectureWebAPI\\AC.Domain\\CA.Domain.csproj",
+        "packagesPath": "C:\\Users\\Andres D\\.nuget\\packages\\",
+        "outputPath": "E:\\cleanArchitectureWebAPI\\AC.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Janus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andres D\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,17 +64,17 @@
         }
       }
     },
-    "D:\\ClenArchitecture\\CAWebApi\\CA.Application\\CA.Application.csproj": {
+    "E:\\cleanArchitectureWebAPI\\CA.Application\\CA.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ClenArchitecture\\CAWebApi\\CA.Application\\CA.Application.csproj",
+        "projectUniqueName": "E:\\cleanArchitectureWebAPI\\CA.Application\\CA.Application.csproj",
         "projectName": "CA.Application",
-        "projectPath": "D:\\ClenArchitecture\\CAWebApi\\CA.Application\\CA.Application.csproj",
-        "packagesPath": "C:\\Users\\Janus\\.nuget\\packages\\",
-        "outputPath": "D:\\ClenArchitecture\\CAWebApi\\CA.Application\\obj\\",
+        "projectPath": "E:\\cleanArchitectureWebAPI\\CA.Application\\CA.Application.csproj",
+        "packagesPath": "C:\\Users\\Andres D\\.nuget\\packages\\",
+        "outputPath": "E:\\cleanArchitectureWebAPI\\CA.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Janus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andres D\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,11 +88,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ClenArchitecture\\CAWebApi\\AC.Domain\\CA.Domain.csproj": {
-                "projectPath": "D:\\ClenArchitecture\\CAWebApi\\AC.Domain\\CA.Domain.csproj"
+              "E:\\cleanArchitectureWebAPI\\AC.Domain\\CA.Domain.csproj": {
+                "projectPath": "E:\\cleanArchitectureWebAPI\\AC.Domain\\CA.Domain.csproj"
               },
-              "D:\\ClenArchitecture\\CAWebApi\\CA.Infrastructure\\CA.Infrastructure.csproj": {
-                "projectPath": "D:\\ClenArchitecture\\CAWebApi\\CA.Infrastructure\\CA.Infrastructure.csproj"
+              "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\CA.Infrastructure.csproj": {
+                "projectPath": "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\CA.Infrastructure.csproj"
               }
             }
           }
@@ -131,17 +131,17 @@
         }
       }
     },
-    "D:\\ClenArchitecture\\CAWebApi\\CA.Infrastructure\\CA.Infrastructure.csproj": {
+    "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\CA.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ClenArchitecture\\CAWebApi\\CA.Infrastructure\\CA.Infrastructure.csproj",
+        "projectUniqueName": "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\CA.Infrastructure.csproj",
         "projectName": "CA.Infrastructure",
-        "projectPath": "D:\\ClenArchitecture\\CAWebApi\\CA.Infrastructure\\CA.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Janus\\.nuget\\packages\\",
-        "outputPath": "D:\\ClenArchitecture\\CAWebApi\\CA.Infrastructure\\obj\\",
+        "projectPath": "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\CA.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Andres D\\.nuget\\packages\\",
+        "outputPath": "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Janus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andres D\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -155,8 +155,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ClenArchitecture\\CAWebApi\\AC.Domain\\CA.Domain.csproj": {
-                "projectPath": "D:\\ClenArchitecture\\CAWebApi\\AC.Domain\\CA.Domain.csproj"
+              "E:\\cleanArchitectureWebAPI\\AC.Domain\\CA.Domain.csproj": {
+                "projectPath": "E:\\cleanArchitectureWebAPI\\AC.Domain\\CA.Domain.csproj"
               }
             }
           }
@@ -221,17 +221,17 @@
         }
       }
     },
-    "D:\\ClenArchitecture\\CAWebApi\\CAWebApi\\CAWebApi.csproj": {
+    "E:\\cleanArchitectureWebAPI\\CAWebApi\\CAWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ClenArchitecture\\CAWebApi\\CAWebApi\\CAWebApi.csproj",
+        "projectUniqueName": "E:\\cleanArchitectureWebAPI\\CAWebApi\\CAWebApi.csproj",
         "projectName": "CAWebApi",
-        "projectPath": "D:\\ClenArchitecture\\CAWebApi\\CAWebApi\\CAWebApi.csproj",
-        "packagesPath": "C:\\Users\\Janus\\.nuget\\packages\\",
-        "outputPath": "D:\\ClenArchitecture\\CAWebApi\\CAWebApi\\obj\\",
+        "projectPath": "E:\\cleanArchitectureWebAPI\\CAWebApi\\CAWebApi.csproj",
+        "packagesPath": "C:\\Users\\Andres D\\.nuget\\packages\\",
+        "outputPath": "E:\\cleanArchitectureWebAPI\\CAWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Janus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andres D\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -245,11 +245,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ClenArchitecture\\CAWebApi\\CA.Application\\CA.Application.csproj": {
-                "projectPath": "D:\\ClenArchitecture\\CAWebApi\\CA.Application\\CA.Application.csproj"
+              "E:\\cleanArchitectureWebAPI\\CA.Application\\CA.Application.csproj": {
+                "projectPath": "E:\\cleanArchitectureWebAPI\\CA.Application\\CA.Application.csproj"
               },
-              "D:\\ClenArchitecture\\CAWebApi\\CA.Infrastructure\\CA.Infrastructure.csproj": {
-                "projectPath": "D:\\ClenArchitecture\\CAWebApi\\CA.Infrastructure\\CA.Infrastructure.csproj"
+              "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\CA.Infrastructure.csproj": {
+                "projectPath": "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\CA.Infrastructure.csproj"
               }
             }
           }

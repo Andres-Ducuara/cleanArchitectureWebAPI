@@ -28,9 +28,9 @@ namespace CA.Application.Services
             return await _userRepository.DeleteAsync(id);            
         }
 
-        public async Task<List<User>> GetAllAsync()
+        public async Task<List<User>> GetAllAsync(string? filter = null)
         {
-            return await _userRepository.GetAllAsync();
+            return await _userRepository.GetAllAsync(filter);
         }
 
         public async Task<User> GetByIdAsync(int id)

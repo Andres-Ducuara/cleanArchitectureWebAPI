@@ -9,3 +9,15 @@ D:\ClenArchitecture\CAWebApi\AC.Domain\obj\Debug\net8.0\CA.Domain.dll
 D:\ClenArchitecture\CAWebApi\AC.Domain\obj\Debug\net8.0\refint\CA.Domain.dll
 D:\ClenArchitecture\CAWebApi\AC.Domain\obj\Debug\net8.0\CA.Domain.pdb
 D:\ClenArchitecture\CAWebApi\AC.Domain\obj\Debug\net8.0\ref\CA.Domain.dll
+E:\cleanArchitectureWebAPI\AC.Domain\bin\Debug\net8.0\CA.Domain.deps.json
+E:\cleanArchitectureWebAPI\AC.Domain\bin\Debug\net8.0\CA.Domain.dll
+E:\cleanArchitectureWebAPI\AC.Domain\bin\Debug\net8.0\CA.Domain.pdb
+E:\cleanArchitectureWebAPI\AC.Domain\obj\Debug\net8.0\CA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\cleanArchitectureWebAPI\AC.Domain\obj\Debug\net8.0\CA.Domain.AssemblyInfoInputs.cache
+E:\cleanArchitectureWebAPI\AC.Domain\obj\Debug\net8.0\CA.Domain.AssemblyInfo.cs
+E:\cleanArchitectureWebAPI\AC.Domain\obj\Debug\net8.0\CA.Domain.csproj.CoreCompileInputs.cache
+E:\cleanArchitectureWebAPI\AC.Domain\obj\Debug\net8.0\CA.Domain.sourcelink.json
+E:\cleanArchitectureWebAPI\AC.Domain\obj\Debug\net8.0\CA.Domain.dll
+E:\cleanArchitectureWebAPI\AC.Domain\obj\Debug\net8.0\refint\CA.Domain.dll
+E:\cleanArchitectureWebAPI\AC.Domain\obj\Debug\net8.0\CA.Domain.pdb
+E:\cleanArchitectureWebAPI\AC.Domain\obj\Debug\net8.0\ref\CA.Domain.dll

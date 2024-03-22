@@ -9,7 +9,7 @@ namespace AC.Domain.Interface
 {
     public interface IUserRepository
     {
-        Task<List<User>> GetAllAsync();
+        Task<List<User>> GetAllAsync(string? filter = null);
         Task<User> GetByIdAsync(int id);
         Task<User> CreateAsync(User user);
         Task<int> UpdateAsync(int id, User user);

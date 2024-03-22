@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\cleanArchitectureWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{011DF72D-C6C9-48DD-A8D7-650F9F598D3F}|CAWebApi\\CAWebApi.csproj|e:\\cleanarchitecturewebapi\\cawebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{011DF72D-C6C9-48DD-A8D7-650F9F598D3F}|CAWebApi\\CAWebApi.csproj|solutionrelative:cawebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04E81A3E-9764-4EB8-B002-66E447F0C3A6}|CA.Infrastructure\\CA.Infrastructure.csproj|e:\\cleanarchitecturewebapi\\ca.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04E81A3E-9764-4EB8-B002-66E447F0C3A6}|CA.Infrastructure\\CA.Infrastructure.csproj|solutionrelative:ca.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBB2F58-112C-4F18-9A02-686D6E187E49}|AC.Domain\\CA.Domain.csproj|e:\\cleanarchitecturewebapi\\ac.domain\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBB2F58-112C-4F18-9A02-686D6E187E49}|AC.Domain\\CA.Domain.csproj|solutionrelative:ac.domain\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2939A898-E359-4C20-977E-6CF3E3DA5D62}|CA.Application\\CA.Application.csproj|e:\\cleanarchitecturewebapi\\ca.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2939A898-E359-4C20-977E-6CF3E3DA5D62}|CA.Application\\CA.Application.csproj|solutionrelative:ca.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2939A898-E359-4C20-977E-6CF3E3DA5D62}|CA.Application\\CA.Application.csproj|e:\\cleanarchitecturewebapi\\ca.application\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2939A898-E359-4C20-977E-6CF3E3DA5D62}|CA.Application\\CA.Application.csproj|solutionrelative:ca.application\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\CAWebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CAWebApi\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\cleanArchitectureWebAPI\\CAWebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CAWebApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAawD4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T00:46:27.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\CA.Application\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "CA.Application\\Services\\IUserService.cs",
+              "ToolTip": "E:\\cleanArchitectureWebAPI\\CA.Application\\Services\\IUserService.cs",
+              "RelativeToolTip": "CA.Application\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T01:46:16.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\CA.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CA.Application\\Services\\UserService.cs",
+              "ToolTip": "E:\\cleanArchitectureWebAPI\\CA.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "CA.Application\\Services\\UserService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwBYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T01:19:49.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\AC.Domain\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "AC.Domain\\Interface\\IUserRepository.cs",
+              "ToolTip": "E:\\cleanArchitectureWebAPI\\AC.Domain\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "AC.Domain\\Interface\\IUserRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T01:36:02.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CA.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "CA.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T01:13:36.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

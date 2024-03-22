@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dU3mb7U5QZtvRlH4hEnLTdLmlOURii+usAGBr03OjxlHISskRckFzino82u4Fv7Izr3gnzEtcchJCq7hL2vxeg==",
+  "dgSpecHash": "uk5L8wGrTtedaeGJHUPuWnSREJ7wX2Zhwy5QP41pdZndOFaqODsDhkiCQmC98BsWn/pnw8/NUlk18F32yD9P9g==",
   "success": true,
-  "projectFilePath": "D:\\ClenArchitecture\\CAWebApi\\AC.Domain\\CA.Domain.csproj",
+  "projectFilePath": "E:\\cleanArchitectureWebAPI\\AC.Domain\\CA.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

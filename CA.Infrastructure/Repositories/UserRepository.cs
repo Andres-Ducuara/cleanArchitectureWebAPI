@@ -22,8 +22,9 @@ namespace CA.Infrastructure.Repositories
 
         public async Task<User> CreateAsync(User user)
         {
-            await _appDbContext.Users.AddAsync(user);
+            _appDbContext.Users.Add(user);
             await _appDbContext.SaveChangesAsync();
+             
             return user;
         }
 
@@ -34,9 +35,17 @@ namespace CA.Infrastructure.Repositories
                 .ExecuteDeleteAsync();  
         }
 
-        public async Task<List<User>> GetAllAsync()
+        public async Task<List<User>> GetAllAsync(string? filter = null)
         {
-            return await _appDbContext.Users.ToListAsync();
+            IQueryable<User> Users = _appDbContext.Users;
+
+
+            if (!string.IsNullOrEmpty(filter))
+            {
+                Users = Users.Where(u => u.Name.Contains(filter) || u.DNI.Contains(filter));
+            }
+
+            return await Users.ToListAsync(); 
         }
 
         public async Task<User> GetByIdAsync(int id)
