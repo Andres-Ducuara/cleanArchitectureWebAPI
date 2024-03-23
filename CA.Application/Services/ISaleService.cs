@@ -12,9 +12,11 @@ namespace CA.Application.Services
     {
         Task<List<SaleDTO>> GetAllAsync(DateTime DStart, DateTime DEnd,  string? filter = null);
         Task<List<SaleDTO>> GetByIdAsync(int id);
-
         Task<int> UpdateAsync(int id, SaleDTO saleDto);
         Task<int> DeleteAsync(int id);
+
+        Task<SaleCreateDTO> CreateAsync(SaleCreateDTO saleCreateDTO ); 
+
 
     }
 }

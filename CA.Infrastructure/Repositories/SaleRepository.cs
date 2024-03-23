@@ -104,5 +104,67 @@ namespace CA.Infrastructure.Repositories
             return await _appDbContext.SaveChangesAsync();
 
         }
+
+        public async Task<SaleCreateDTO> CreateAsync(SaleCreateDTO saleCreateDTO)
+        {
+
+            var user = await _appDbContext.Sales
+                .Include(s => s.UserID)
+                .FirstOrDefaultAsync(s => s.Id == saleCreateDTO.UsuarioId.Id);
+
+            if (user == null)
+            {
+                User newUser = new User
+                {
+                    Name = saleCreateDTO.SaleId.UserID.Name,
+                    DNI = saleCreateDTO.SaleId.UserID.DNI
+                };
+
+                _appDbContext.Users.Add(newUser);
+                await _appDbContext.SaveChangesAsync();
+            }
+
+            var sale = new Sale
+            {
+                UserID = saleCreateDTO.UsuarioId,
+                DateS = DateTime.Now
+            };
+
+            decimal totalSale = 0;
+
+            foreach (var detail in saleCreateDTO.SaleDeta)
+            {
+                var product = _appDbContext.Products.FirstOrDefault(p => p.Id == detail.Id);
+
+                if (product != null)
+                {
+                    decimal totalDetail = detail.Amount * detail.UnitPrice;
+                    totalSale += totalDetail;
+
+                    var detailSale = new SalesDetail
+                    {
+                        ProductId = product.Id,
+                        SaleId = sale.Id,
+                        Amount = detail.Amount,
+                        UnitPrice = detail.UnitPrice,
+                        Total = totalDetail
+                    };
+                    _appDbContext.salesDetails.Add(detailSale);
+                }
+
+            }
+
+            sale.Total = totalSale;
+
+            await _appDbContext.SaveChangesAsync();
+            /*
+            // Construir y retornar el SaleCreateDTO con los datos deseados
+            SaleCreateDTO result = new()
+            {
+                SaleId = saleCreateDTO.SaleId.Id
+            };
+            */
+            return saleCreateDTO;
+        }
     }
 }

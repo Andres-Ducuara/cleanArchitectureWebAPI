@@ -39,5 +39,10 @@ namespace CA.Application.Services
         {
             return await _saleRepository.UpdateAsync(id, saleDto);
         }
+
+        public async Task<SaleCreateDTO> CreateAsync(SaleCreateDTO saleCreateDTO)
+        {
+            return await _saleRepository.CreateAsync(saleCreateDTO);
+        }
     }
 }

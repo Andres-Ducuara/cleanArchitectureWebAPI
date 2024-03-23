@@ -6922,19 +6922,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Janus\\.nuget\\packages\\": {}
+    "C:\\Users\\Andres D\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ClenArchitecture\\cleanArchitectureWebAPI\\CAWebApi\\CAWebApi.csproj",
+      "projectUniqueName": "E:\\cleanArchitectureWebAPI\\CAWebApi\\CAWebApi.csproj",
       "projectName": "CAWebApi",
-      "projectPath": "D:\\ClenArchitecture\\cleanArchitectureWebAPI\\CAWebApi\\CAWebApi.csproj",
-      "packagesPath": "C:\\Users\\Janus\\.nuget\\packages\\",
-      "outputPath": "D:\\ClenArchitecture\\cleanArchitectureWebAPI\\CAWebApi\\obj\\",
+      "projectPath": "E:\\cleanArchitectureWebAPI\\CAWebApi\\CAWebApi.csproj",
+      "packagesPath": "C:\\Users\\Andres D\\.nuget\\packages\\",
+      "outputPath": "E:\\cleanArchitectureWebAPI\\CAWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Janus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andres D\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6948,11 +6948,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ClenArchitecture\\cleanArchitectureWebAPI\\CA.Application\\CA.Application.csproj": {
-              "projectPath": "D:\\ClenArchitecture\\cleanArchitectureWebAPI\\CA.Application\\CA.Application.csproj"
+            "E:\\cleanArchitectureWebAPI\\CA.Application\\CA.Application.csproj": {
+              "projectPath": "E:\\cleanArchitectureWebAPI\\CA.Application\\CA.Application.csproj"
             },
-            "D:\\ClenArchitecture\\cleanArchitectureWebAPI\\CA.Infrastructure\\CA.Infrastructure.csproj": {
-              "projectPath": "D:\\ClenArchitecture\\cleanArchitectureWebAPI\\CA.Infrastructure\\CA.Infrastructure.csproj"
+            "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\CA.Infrastructure.csproj": {
+              "projectPath": "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\CA.Infrastructure.csproj"
             }
           }
         }

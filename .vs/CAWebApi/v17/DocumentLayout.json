@@ -1,20 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ClenArchitecture\\cleanArchitectureWebAPI\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\cleanArchitectureWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04E81A3E-9764-4EB8-B002-66E447F0C3A6}|CA.Infrastructure\\CA.Infrastructure.csproj|e:\\cleanarchitecturewebapi\\ca.infrastructure\\repositories\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04E81A3E-9764-4EB8-B002-66E447F0C3A6}|CA.Infrastructure\\CA.Infrastructure.csproj|solutionrelative:ca.infrastructure\\repositories\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBB2F58-112C-4F18-9A02-686D6E187E49}|AC.Domain\\CA.Domain.csproj|e:\\cleanarchitecturewebapi\\ac.domain\\enitites\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBB2F58-112C-4F18-9A02-686D6E187E49}|AC.Domain\\CA.Domain.csproj|solutionrelative:ac.domain\\enitites\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{011DF72D-C6C9-48DD-A8D7-650F9F598D3F}|CAWebApi\\CAWebApi.csproj|e:\\cleanarchitecturewebapi\\cawebapi\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{011DF72D-C6C9-48DD-A8D7-650F9F598D3F}|CAWebApi\\CAWebApi.csproj|solutionrelative:cawebapi\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBB2F58-112C-4F18-9A02-686D6E187E49}|AC.Domain\\CA.Domain.csproj|e:\\cleanarchitecturewebapi\\ac.domain\\interface\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBB2F58-112C-4F18-9A02-686D6E187E49}|AC.Domain\\CA.Domain.csproj|solutionrelative:ac.domain\\interface\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2939A898-E359-4C20-977E-6CF3E3DA5D62}|CA.Application\\CA.Application.csproj|e:\\cleanarchitecturewebapi\\ca.application\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2939A898-E359-4C20-977E-6CF3E3DA5D62}|CA.Application\\CA.Application.csproj|solutionrelative:ca.application\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2939A898-E359-4C20-977E-6CF3E3DA5D62}|CA.Application\\CA.Application.csproj|e:\\cleanarchitecturewebapi\\ca.application\\services\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2939A898-E359-4C20-977E-6CF3E3DA5D62}|CA.Application\\CA.Application.csproj|solutionrelative:ca.application\\services\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 230,
+          "DockedHeight": 159,
           "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -25,11 +46,96 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 241,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\AC.Domain\\Enitites\\Sale.cs",
+              "RelativeDocumentMoniker": "AC.Domain\\Enitites\\Sale.cs",
+              "ToolTip": "E:\\cleanArchitectureWebAPI\\AC.Domain\\Enitites\\Sale.cs",
+              "RelativeToolTip": "AC.Domain\\Enitites\\Sale.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAhwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:23:48.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\CAWebApi\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "CAWebApi\\Controllers\\SaleController.cs",
+              "ToolTip": "E:\\cleanArchitectureWebAPI\\CAWebApi\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "CAWebApi\\Controllers\\SaleController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAswEQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T02:47:19.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISaleService.cs",
+              "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\CA.Application\\Services\\ISaleService.cs",
+              "RelativeDocumentMoniker": "CA.Application\\Services\\ISaleService.cs",
+              "ToolTip": "E:\\cleanArchitectureWebAPI\\CA.Application\\Services\\ISaleService.cs",
+              "RelativeToolTip": "CA.Application\\Services\\ISaleService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAWwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T02:48:03.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SaleService.cs",
+              "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\CA.Application\\Services\\SaleService.cs",
+              "RelativeDocumentMoniker": "CA.Application\\Services\\SaleService.cs",
+              "ToolTip": "E:\\cleanArchitectureWebAPI\\CA.Application\\Services\\SaleService.cs",
+              "RelativeToolTip": "CA.Application\\Services\\SaleService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAA0wCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T02:53:22.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISaleRepository.cs",
+              "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\AC.Domain\\Interface\\ISaleRepository.cs",
+              "RelativeDocumentMoniker": "AC.Domain\\Interface\\ISaleRepository.cs",
+              "ToolTip": "E:\\cleanArchitectureWebAPI\\AC.Domain\\Interface\\ISaleRepository.cs",
+              "RelativeToolTip": "AC.Domain\\Interface\\ISaleRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAD4vxAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T02:54:16.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SaleRepository.cs",
+              "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\Repositories\\SaleRepository.cs",
+              "RelativeDocumentMoniker": "CA.Infrastructure\\Repositories\\SaleRepository.cs",
+              "ToolTip": "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\Repositories\\SaleRepository.cs",
+              "RelativeToolTip": "CA.Infrastructure\\Repositories\\SaleRepository.cs",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAAAJwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T02:54:44.445Z",
+              "EditorCaption": ""
             }
           ]
         }

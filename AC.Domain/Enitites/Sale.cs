@@ -10,7 +10,7 @@ namespace CA.Domain.Enitites
     public class Sale
     { 
         public int Id { get; set; }
-        public required User UserID { get; set; }
+        public  User UserID { get; set; }
         public DateTime DateS {  get; set; }
         public decimal Total {  get; set; } 
 
@@ -24,5 +24,16 @@ namespace CA.Domain.Enitites
         public DateTime Fecha { get; set; }
         public decimal Total { get; set; }
     }
+
+   
+         public class SaleCreateDTO
+    {
+        public  User UsuarioId { get; set; }
+        public  Sale SaleId { get; set; }
+        public  List<Product> Productos { get; set; }
+
+        public  List<SalesDetail> SaleDeta { get; set; }
+    } 
+
 
 }

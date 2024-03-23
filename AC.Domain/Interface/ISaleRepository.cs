@@ -15,6 +15,8 @@ namespace CA.Domain.Interface
         Task<int> UpdateAsync(int id, SaleDTO saleDTO);
         Task<int> DeleteAsync(int id);
 
+        Task<SaleCreateDTO> CreateAsync(SaleCreateDTO saleCreateDTO);
+
 
     }
 }

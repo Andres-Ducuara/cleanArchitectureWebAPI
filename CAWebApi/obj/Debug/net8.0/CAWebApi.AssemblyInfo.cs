@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CAWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7da0626772f4dfb9a005ed7ba4e7ba30c650ff3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2918d393acdef22d46d4fdc5bbb417ab69044229")]
 [assembly: System.Reflection.AssemblyProductAttribute("CAWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CAWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

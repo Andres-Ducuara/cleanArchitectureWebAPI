@@ -9,7 +9,7 @@ namespace AC.Domain.Enitites
     public class User
     {
         public int Id { get; set; }
-        public required string Name { get; set; }
-        public required string DNI { get; set; }
+        public  string Name { get; set; }
+        public  string DNI { get; set; }
     }
 }
