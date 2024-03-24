@@ -1,5 +1,6 @@
 ﻿using AC.Domain.Enitites;
 using CA.Domain.Enitites;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,8 +16,7 @@ namespace CA.Application.Services
         Task<int> UpdateAsync(int id, SaleDTO saleDto);
         Task<int> DeleteAsync(int id);
 
-        Task<SaleCreateDTO> CreateAsync(SaleCreateDTO saleCreateDTO ); 
-
-
+        Task<SaleCreateDTO> CreateAsync([FromBody] SaleCreateDTO saleCreateDTO);
+      
     }
 }

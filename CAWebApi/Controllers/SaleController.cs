@@ -65,13 +65,13 @@ namespace CAWebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create (SaleCreateDTO saleCreateDTO)
+        public async Task<IActionResult> Create([FromBody] SaleCreateDTO saleCreateDTO)
         {
-            var createdSale = await  _saleService.CreateAsync(saleCreateDTO);
-            return CreatedAtAction("GetByIdAsync", new { id = createdSale.SaleId.Id }, createdSale);
+            var createdSale = await _saleService.CreateAsync(saleCreateDTO);
+            return CreatedAtAction(nameof(GetAllAsync), new { id = createdSale.DNI }, createdSale);
         }
 
-         
+
 
     }
 }

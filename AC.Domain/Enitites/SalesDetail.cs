@@ -13,8 +13,17 @@ namespace CA.Domain.Enitites
         public int SaleId { get; set; }
         public int Amount {  get; set; }
         public Decimal UnitPrice { get; set; }
-        public Decimal Total { get; set; }
-
-        
+        public Decimal Total { get; set; } 
     }
+
+
+    public class SalesDetailDTO
+    {
+        public int Id { get; set; }
+        public int ProductId { get; set; } 
+        public int Amount { get; set; }
+        public Decimal UnitPrice { get; set; }
+        public Decimal Total { get; set; }
+    }
+
 }

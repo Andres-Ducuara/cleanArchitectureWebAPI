@@ -20,6 +20,7 @@ namespace CA.Infrastructure.Context
         public DbSet<Product> Products { get; set; }
         public DbSet<Sale> Sales { get; set; }   
         public DbSet<SalesDetail> salesDetails { get; set; }
+
         //public DbSet<SaleDTO> saleDTOs { get; set; }
          
     }

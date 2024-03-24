@@ -1,6 +1,7 @@
 ﻿using CA.Domain.Enitites;
 using CA.Domain.Interface;
 using CA.Infrastructure.Repositories;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,9 +41,10 @@ namespace CA.Application.Services
             return await _saleRepository.UpdateAsync(id, saleDto);
         }
 
-        public async Task<SaleCreateDTO> CreateAsync(SaleCreateDTO saleCreateDTO)
+        public async Task<SaleCreateDTO> CreateAsync([FromBody] SaleCreateDTO saleCreateDTO)
         {
             return await _saleRepository.CreateAsync(saleCreateDTO);
         }
+ 
     }
 }

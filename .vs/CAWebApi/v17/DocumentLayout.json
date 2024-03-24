@@ -7,14 +7,6 @@
       "RelativeMoniker": "D:0:0:{04E81A3E-9764-4EB8-B002-66E447F0C3A6}|CA.Infrastructure\\CA.Infrastructure.csproj|solutionrelative:ca.infrastructure\\repositories\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDBB2F58-112C-4F18-9A02-686D6E187E49}|AC.Domain\\CA.Domain.csproj|e:\\cleanarchitecturewebapi\\ac.domain\\enitites\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBB2F58-112C-4F18-9A02-686D6E187E49}|AC.Domain\\CA.Domain.csproj|solutionrelative:ac.domain\\enitites\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{011DF72D-C6C9-48DD-A8D7-650F9F598D3F}|CAWebApi\\CAWebApi.csproj|e:\\cleanarchitecturewebapi\\cawebapi\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{011DF72D-C6C9-48DD-A8D7-650F9F598D3F}|CAWebApi\\CAWebApi.csproj|solutionrelative:cawebapi\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FDBB2F58-112C-4F18-9A02-686D6E187E49}|AC.Domain\\CA.Domain.csproj|e:\\cleanarchitecturewebapi\\ac.domain\\interface\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDBB2F58-112C-4F18-9A02-686D6E187E49}|AC.Domain\\CA.Domain.csproj|solutionrelative:ac.domain\\interface\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{2939A898-E359-4C20-977E-6CF3E3DA5D62}|CA.Application\\CA.Application.csproj|e:\\cleanarchitecturewebapi\\ca.application\\services\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2939A898-E359-4C20-977E-6CF3E3DA5D62}|CA.Application\\CA.Application.csproj|solutionrelative:ca.application\\services\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{011DF72D-C6C9-48DD-A8D7-650F9F598D3F}|CAWebApi\\CAWebApi.csproj|e:\\cleanarchitecturewebapi\\cawebapi\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{011DF72D-C6C9-48DD-A8D7-650F9F598D3F}|CAWebApi\\CAWebApi.csproj|solutionrelative:cawebapi\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,70 +55,60 @@
           ]
         },
         {
-          "DockedHeight": 241,
-          "SelectedChildIndex": 5,
+          "DockedHeight": 63,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Sale.cs",
-              "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\AC.Domain\\Enitites\\Sale.cs",
-              "RelativeDocumentMoniker": "AC.Domain\\Enitites\\Sale.cs",
-              "ToolTip": "E:\\cleanArchitectureWebAPI\\AC.Domain\\Enitites\\Sale.cs",
-              "RelativeToolTip": "AC.Domain\\Enitites\\Sale.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAhwBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T05:23:48.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SaleController.cs",
               "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\CAWebApi\\Controllers\\SaleController.cs",
               "RelativeDocumentMoniker": "CAWebApi\\Controllers\\SaleController.cs",
               "ToolTip": "E:\\cleanArchitectureWebAPI\\CAWebApi\\Controllers\\SaleController.cs",
               "RelativeToolTip": "CAWebApi\\Controllers\\SaleController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAswEQAAAAJAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABcAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T02:47:19.557Z",
+              "WhenOpened": "2024-03-24T01:16:01.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ISaleService.cs",
               "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\CA.Application\\Services\\ISaleService.cs",
               "RelativeDocumentMoniker": "CA.Application\\Services\\ISaleService.cs",
               "ToolTip": "E:\\cleanArchitectureWebAPI\\CA.Application\\Services\\ISaleService.cs",
               "RelativeToolTip": "CA.Application\\Services\\ISaleService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAWwBAAAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T02:48:03.952Z"
+              "WhenOpened": "2024-03-23T02:48:03.952Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "SaleService.cs",
               "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\CA.Application\\Services\\SaleService.cs",
               "RelativeDocumentMoniker": "CA.Application\\Services\\SaleService.cs",
               "ToolTip": "E:\\cleanArchitectureWebAPI\\CA.Application\\Services\\SaleService.cs",
               "RelativeToolTip": "CA.Application\\Services\\SaleService.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAA0wCkAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwBgAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T02:53:22.874Z"
+              "WhenOpened": "2024-03-23T02:53:22.874Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ISaleRepository.cs",
               "DocumentMoniker": "E:\\cleanArchitectureWebAPI\\AC.Domain\\Interface\\ISaleRepository.cs",
               "RelativeDocumentMoniker": "AC.Domain\\Interface\\ISaleRepository.cs",
               "ToolTip": "E:\\cleanArchitectureWebAPI\\AC.Domain\\Interface\\ISaleRepository.cs",
               "RelativeToolTip": "AC.Domain\\Interface\\ISaleRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAD4vxAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T02:54:16.63Z"
+              "WhenOpened": "2024-03-23T02:54:16.63Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -132,7 +118,7 @@
               "RelativeDocumentMoniker": "CA.Infrastructure\\Repositories\\SaleRepository.cs",
               "ToolTip": "E:\\cleanArchitectureWebAPI\\CA.Infrastructure\\Repositories\\SaleRepository.cs",
               "RelativeToolTip": "CA.Infrastructure\\Repositories\\SaleRepository.cs",
-              "ViewState": "AQIAAJIAAAAAAAAAAAAAAJwAAAAjAAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAADwv2IAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T02:54:44.445Z",
               "EditorCaption": ""

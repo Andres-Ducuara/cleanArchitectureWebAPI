@@ -30,6 +30,9 @@ builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddTransient<ISaleRepository, SaleRepository>();
 builder.Services.AddTransient<ISaleService, SaleService>();
 
+builder.Services.AddTransient<IDetailRepository, DetailSaleRepository>();
+builder.Services.AddTransient<IDetailService, DetailsService>();
+
 
 builder.Services.AddControllers();
 

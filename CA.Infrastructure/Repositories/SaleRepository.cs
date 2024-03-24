@@ -2,6 +2,7 @@
 using CA.Domain.Enitites;
 using CA.Domain.Interface;
 using CA.Infrastructure.Context;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace CA.Infrastructure.Repositories
     public class SaleRepository : ISaleRepository
     {
         private readonly AppDbContext _appDbContext;
+        private User userIdS;
 
         public SaleRepository(AppDbContext appDbContext)
         {
@@ -54,13 +56,13 @@ namespace CA.Infrastructure.Repositories
         {
             IQueryable<Sale> Sales = _appDbContext.Sales.Include(u => u.UserID);
 
-            
+
 
             if (id != default)
             {
                 Sales = Sales.Where(s => s.Id >= id);
             }
- 
+
 
             // Resultados en una lista de objetos DTO con los campos solicitados
             var result = await Sales.Select(s => new SaleDTO
@@ -86,9 +88,9 @@ namespace CA.Infrastructure.Repositories
 
         public async Task<int> UpdateAsync(int id, SaleDTO saleDTO)
         {
-             var sale = await _appDbContext.Sales
-                  .Include(s => s.UserID) 
-                  .FirstOrDefaultAsync(s => s.Id == id);
+            var sale = await _appDbContext.Sales
+                 .Include(s => s.UserID)
+                 .FirstOrDefaultAsync(s => s.Id == id);
 
             if (sale == null)
             {
@@ -105,66 +107,69 @@ namespace CA.Infrastructure.Repositories
 
         }
 
-        public async Task<SaleCreateDTO> CreateAsync(SaleCreateDTO saleCreateDTO)
+        public async Task<SaleCreateDTO> CreateAsync([FromBody] SaleCreateDTO saleCreateDTO)
         {
+            var user = await _appDbContext.Users
+                .FirstOrDefaultAsync(u => u.DNI == saleCreateDTO.DNI);
 
-            var user = await _appDbContext.Sales
-                .Include(s => s.UserID)
-                .FirstOrDefaultAsync(s => s.Id == saleCreateDTO.UsuarioId.Id);
 
             if (user == null)
             {
-                User newUser = new User
+                User newUser = new()
                 {
-                    Name = saleCreateDTO.SaleId.UserID.Name,
-                    DNI = saleCreateDTO.SaleId.UserID.DNI
+                    Name = saleCreateDTO.NameUSer,
+                    DNI = saleCreateDTO.DNI
                 };
 
                 _appDbContext.Users.Add(newUser);
                 await _appDbContext.SaveChangesAsync();
+
+                int userIdS = newUser.Id;
+
             }
+
+
 
             var sale = new Sale
             {
-                UserID = saleCreateDTO.UsuarioId,
-                DateS = DateTime.Now
+                UserID = userIdS,
+                DateS = DateTime.UtcNow
             };
+
+
+
 
             decimal totalSale = 0;
 
-            foreach (var detail in saleCreateDTO.SaleDeta)
+            var salesDetails = saleCreateDTO.ProductList;
+            foreach (var detail in salesDetails)
             {
-                var product = _appDbContext.Products.FirstOrDefault(p => p.Id == detail.Id);
+                var product = _appDbContext.Products.FirstOrDefault(p => p.Id == detail.IdProduct);
 
                 if (product != null)
                 {
-                    decimal totalDetail = detail.Amount * detail.UnitPrice;
+                    var totalDetail = detail.Amount * product.Price;
                     totalSale += totalDetail;
 
                     var detailSale = new SalesDetail
                     {
-                        ProductId = product.Id,
-                        SaleId = sale.Id,
+                        ProductId = detail.IdProduct,
+                        SaleId = 0,
                         Amount = detail.Amount,
-                        UnitPrice = detail.UnitPrice,
+                        UnitPrice = product.Price,
                         Total = totalDetail
                     };
                     _appDbContext.salesDetails.Add(detailSale);
                 }
-
             }
-
             sale.Total = totalSale;
-
+         _appDbContext.Sales.Add(sale);
+ 
             await _appDbContext.SaveChangesAsync();
-            /*
-            // Construir y retornar el SaleCreateDTO con los datos deseados
-            SaleCreateDTO result = new()
-            {
-                SaleId = saleCreateDTO.SaleId.Id
-            };
-            */
+ 
             return saleCreateDTO;
         }
+
+
     }
 }

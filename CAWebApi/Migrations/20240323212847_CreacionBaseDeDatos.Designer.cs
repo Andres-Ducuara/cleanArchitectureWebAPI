@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace CAWebApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240322175415_CreatedDataBase_ACWebApi")]
-    partial class CreatedDataBase_ACWebApi
+    [Migration("20240323212847_CreacionBaseDeDatos")]
+    partial class CreacionBaseDeDatos
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -58,7 +58,6 @@ namespace CAWebApi.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<decimal>("Price")
@@ -77,8 +76,8 @@ namespace CAWebApi.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<DateOnly>("DateS")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("DateS")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<decimal>("Total")
                         .HasColumnType("numeric");
